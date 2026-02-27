@@ -1,6 +1,13 @@
 # bank-deposit-prediction.ml
 Predicts bank customer deposit subscription using machine learning and Streamlit.
 
+🏦 Bank Deposit Prediction using Machine Learning
+
+ **Live Application:**  
+ https://bank-deposit-predictionml-uwedxpkarg3u6bskutbuzz.streamlit.app/
+
+This project predicts whether a customer will subscribe to a bank term deposit using Machine Learning. The model is deployed using Streamlit Cloud.
+
 1. Project Title
 
 Bank Deposit Subscription Prediction using Machine Learning
