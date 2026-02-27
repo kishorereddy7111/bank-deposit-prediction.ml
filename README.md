@@ -1,77 +1,79 @@
 # bank-deposit-prediction.ml
 Predicts bank customer deposit subscription using machine learning and Streamlit.
 
-1️⃣ Project Title / Headline
+1. Project Title
 
-Bank Deposit Prediction using Machine Learning
+Bank Deposit Subscription Prediction using Machine Learning
 
-2️⃣ Short Description / Purpose
+📌 2. Problem Statement
 
-This project builds a machine learning model to predict whether a customer will subscribe to a bank term deposit.
+Banks need to predict whether a customer will subscribe to a term deposit to optimize marketing campaigns and reduce cost.
 
-It involves:
+📌 3. Business Objective
 
-Cleaning and exploring real banking dataset
+Identify high-probability customers
 
-Feature selection
+Reduce marketing expenses
 
-Building and comparing popular classification models
+Improve campaign conversion rate
 
-Identifying best-performing model for prediction
+📌 4. Dataset Description
 
-This project demonstrates ML problem solving using Python and Scikit-Learn.
+Source: Bank Marketing Dataset
 
-3️⃣ Tech Stack
+Features: Age, Job, Marital, Education, Balance, Contact, Duration
 
-Python
+Target: Deposit Subscription (Yes/No)
 
-Pandas & NumPy – Data manipulation
+📌 5. Project Workflow
+Step 1 – Data Collection
 
-Matplotlib & Seaborn – Visualization
+Loaded bank.csv dataset
 
-Scikit-Learn – Model training & evaluation
+Step 2 – Data Cleaning
 
-Train/Test Split – Validation
+Handled missing values
 
-Classification Algorithms (Logistic Regression, Random Forest, XGBoost optionally)
+Encoded categorical variables
 
-Jupyter Notebook – Development
+Feature scaling
 
-4️⃣ Data Source
+Step 3 – Exploratory Data Analysis
 
-You have used the Bank Marketing Dataset (commonly from UCI ML Repo or Kaggle). The dataset contains customer information such as:
+Checked class imbalance
 
-Age
+Visualized correlations
 
-Job
+Distribution plots
 
-Marital
+Step 4 – Feature Engineering
 
-Education
+One-hot encoding
 
-Balance
+Scaling using StandardScaler
 
-Contact
+Step 5 – Model Building
 
-Day/Month
+Logistic Regression
 
-Duration
+Random Forest (if used)
 
-Previous Campaign Outcome
+Compared accuracy
 
-Target Label: deposit_subscribed (yes/no)
+Step 6 – Model Evaluation
 
-(If specific source link exists, add it here in your repo)
+Accuracy
 
-5️⃣ Features & Highlights
-Business Problem
+Precision
 
-Banks spend significant money on marketing campaigns. They need to know:
+Recall
 
-Which customers are most likely to subscribe
+F1 Score
 
-What features influence subscription behavior
+Confusion Matrix
 
-How to optimize future campaigns
+Step 7 – Model Deployment
 
-The goal is to predict customer behavior before calling, reducing cost and increasing success rate.
+Saved trained model using pickle
+
+Built prediction app using app.py
