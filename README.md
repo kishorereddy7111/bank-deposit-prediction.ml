@@ -1,5 +1,6 @@
 # bank-deposit-prediction.ml
 Predicts bank customer deposit subscription using machine learning and Streamlit.
+
 1️⃣ Project Title / Headline
 
 Bank Deposit Prediction using Machine Learning
